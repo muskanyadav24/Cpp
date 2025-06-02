@@ -1,0 +1,48 @@
+(a > b)?
+// yes
+    (a > c)?
+    (a > d)?
+    (a > e)?
+    cout << "A is big"
+    :
+    cout << "E is big"
+    :
+    (d > e)?
+    cout << "D is big"
+    :
+    cout << "E is big"
+    :
+    (c > d)?
+    (c > e)?
+    cout << "C is big"
+    :
+    cout << "E is big"
+    :
+    (d > e)?
+    cout << "D is big"
+    :
+    cout << "E is big"
+:
+// no
+(b > c)?
+    (b > d)?
+    (b > e)?
+    cout << "D is big"
+    :
+    cout << "E is big"
+    :
+    (d > e)?
+    cout << "D is big"
+    :
+    cout << "E is big"
+:
+(c > d)?
+    (c > e)?
+    cout << "C is big"
+    :
+    cout << "E is big"
+:
+(d > e)?
+cout << "D is big"
+:
+cout << "E is big";
