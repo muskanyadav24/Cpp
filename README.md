@@ -1,5 +1,3 @@
-# C++
-
 # 💻 C++ Concepts & Practice Problems
 
 This repository contains a collection of **C++ programs** designed to help beginners understand core programming concepts. These programs cover various topics like data types, control structures, loops, functions, arrays, patterns, and more.
@@ -27,13 +25,13 @@ This repository contains a collection of **C++ programs** designed to help begin
 
 ---
 
+🌟 Motivation
+This repository is built to practice C++ coding, revise concepts, and prepare for college practicals, assignments, and coding tests.
+
 ## 🛠️ How to Compile & Run
 
 Use any C++ compiler like `g++`:
 
 ```bash
 g++ filename.cpp -o output
-./output
-
-🌟 Motivation
-This repository is built to practice C++ coding, revise concepts, and prepare for college practicals, assignments, and coding tests.
+./output 
