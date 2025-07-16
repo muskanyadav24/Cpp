@@ -1,4 +1,5 @@
-
+// Tic-Tac-Toe Game (2 Players)
+// Simple 3x3 grid game console par implement karo.
 
 #include <iostream>
 using namespace std;
