@@ -22,17 +22,50 @@ This repository contains a collection of **C++ programs** designed to help begin
 |------------------|------------------------------------------|
 | `README.md`      | Project overview and instructions        |
 | `C++/`           | Contains all C++ source code files        |
+| `Tic-Tac-Toe-Game.cpp` | Featured console-based game project    |
 
 ---
 
-🌟 Motivation
+## 🌟 Motivation
 
-This repository is built to practice C++ coding, revise concepts, and prepare for college practicals, assignments, and coding tests.
+This repository is built to:
 
+- Practice C++ coding
+- Revise concepts with simple examples
+- Prepare for college practicals & assignments
+- Improve logic building for coding interviews
+
+## 🎮 Featured Project: Tic-Tac-Toe Game
+
+A simple **2-player terminal-based Tic-Tac-Toe** game built in C++. Great for applying loops, arrays, and logic structures.
+
+📌 **File:** `Tic-Tac-Toe-Game.cpp`  
+🧠 **Concepts Used:**  
+- 2D board representation  
+- Turn-based user input  
+- Win/draw logic  
+- Functions & input validation
+  
 ## 🛠️ How to Compile & Run
 
 Use any C++ compiler like `g++`:
 
 ```bash
 g++ filename.cpp -o output
-./output 
+./output
+g++ Tic-Tac-Toe-Game.cpp -o ttt
+./ttt
+```
+
+Player 1 (X)  -  Player 2 (O)
+
+     |     |
+  X  |  O  |  X
+_____|_____|_____
+     |     |
+     |  O  |  
+_____|_____|_____
+     |     |
+     |  X  |  
+     |     |
+
