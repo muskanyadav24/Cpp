@@ -56,16 +56,3 @@ g++ filename.cpp -o output
 g++ Tic-Tac-Toe-Game.cpp -o ttt
 ./ttt
 ```
-
-Player 1 (X)  -  Player 2 (O)
-
-     |     |
-  X  |  O  |  X
-_____|_____|_____
-     |     |
-     |  O  |  
-_____|_____|_____
-     |     |
-     |  X  |  
-     |     |
-
